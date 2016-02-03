@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E155BDC41C5F535600A6504F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E155BDC31C5F535600A6504F /* main.m */; };
+		E155BDC71C5F535600A6504F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E155BDC61C5F535600A6504F /* AppDelegate.m */; };
+		E155BDCA1C5F535600A6504F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E155BDC91C5F535600A6504F /* ViewController.m */; };
+		E155BDCD1C5F535600A6504F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E155BDCB1C5F535600A6504F /* Main.storyboard */; };
+		E155BDCF1C5F535600A6504F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E155BDCE1C5F535600A6504F /* Assets.xcassets */; };
+		E155BDD21C5F535600A6504F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E155BDD01C5F535600A6504F /* LaunchScreen.storyboard */; };
+		E155BDDD1C5F535700A6504F /* yuntuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E155BDDC1C5F535700A6504F /* yuntuiTests.m */; };
+		E155BDE81C5F535700A6504F /* yuntuiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E155BDE71C5F535700A6504F /* yuntuiUITests.m */; };
+		E197D2351C603BC800C8BFEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E197D2341C603BC800C8BFEA /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E155BDD91C5F535700A6504F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E155BDB71C5F535600A6504F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E155BDBE1C5F535600A6504F;
+			remoteInfo = yuntui;
+		};
+		E155BDE41C5F535700A6504F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E155BDB71C5F535600A6504F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E155BDBE1C5F535600A6504F;
+			remoteInfo = yuntui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E155BDBF1C5F535600A6504F /* yuntui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yuntui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E155BDC31C5F535600A6504F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E155BDC51C5F535600A6504F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E155BDC61C5F535600A6504F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E155BDC81C5F535600A6504F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E155BDC91C5F535600A6504F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E155BDCC1C5F535600A6504F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E155BDCE1C5F535600A6504F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E155BDD11C5F535600A6504F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E155BDD31C5F535600A6504F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E155BDD81C5F535700A6504F /* yuntuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yuntuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E155BDDC1C5F535700A6504F /* yuntuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yuntuiTests.m; sourceTree = "<group>"; };
+		E155BDDE1C5F535700A6504F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E155BDE31C5F535700A6504F /* yuntuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yuntuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E155BDE71C5F535700A6504F /* yuntuiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yuntuiUITests.m; sourceTree = "<group>"; };
+		E155BDE91C5F535700A6504F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E197D2341C603BC800C8BFEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E155BDBC1C5F535600A6504F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155BDD51C5F535700A6504F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155BDE01C5F535700A6504F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E155BDB61C5F535600A6504F = {
+			isa = PBXGroup;
+			children = (
+				E155BDC11C5F535600A6504F /* yuntui */,
+				E155BDDB1C5F535700A6504F /* yuntuiTests */,
+				E155BDE61C5F535700A6504F /* yuntuiUITests */,
+				E155BDC01C5F535600A6504F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E155BDC01C5F535600A6504F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E155BDBF1C5F535600A6504F /* yuntui.app */,
+				E155BDD81C5F535700A6504F /* yuntuiTests.xctest */,
+				E155BDE31C5F535700A6504F /* yuntuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E155BDC11C5F535600A6504F /* yuntui */ = {
+			isa = PBXGroup;
+			children = (
+				E197D2341C603BC800C8BFEA /* Default-568h@2x.png */,
+				E155BDC51C5F535600A6504F /* AppDelegate.h */,
+				E155BDC61C5F535600A6504F /* AppDelegate.m */,
+				E155BDC81C5F535600A6504F /* ViewController.h */,
+				E155BDC91C5F535600A6504F /* ViewController.m */,
+				E155BDCB1C5F535600A6504F /* Main.storyboard */,
+				E155BDCE1C5F535600A6504F /* Assets.xcassets */,
+				E155BDD01C5F535600A6504F /* LaunchScreen.storyboard */,
+				E155BDD31C5F535600A6504F /* Info.plist */,
+				E155BDC21C5F535600A6504F /* Supporting Files */,
+			);
+			path = yuntui;
+			sourceTree = "<group>";
+		};
+		E155BDC21C5F535600A6504F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E155BDC31C5F535600A6504F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E155BDDB1C5F535700A6504F /* yuntuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E155BDDC1C5F535700A6504F /* yuntuiTests.m */,
+				E155BDDE1C5F535700A6504F /* Info.plist */,
+			);
+			path = yuntuiTests;
+			sourceTree = "<group>";
+		};
+		E155BDE61C5F535700A6504F /* yuntuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E155BDE71C5F535700A6504F /* yuntuiUITests.m */,
+				E155BDE91C5F535700A6504F /* Info.plist */,
+			);
+			path = yuntuiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E155BDBE1C5F535600A6504F /* yuntui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E155BDEC1C5F535700A6504F /* Build configuration list for PBXNativeTarget "yuntui" */;
+			buildPhases = (
+				E155BDBB1C5F535600A6504F /* Sources */,
+				E155BDBC1C5F535600A6504F /* Frameworks */,
+				E155BDBD1C5F535600A6504F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yuntui;
+			productName = yuntui;
+			productReference = E155BDBF1C5F535600A6504F /* yuntui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E155BDD71C5F535700A6504F /* yuntuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E155BDEF1C5F535700A6504F /* Build configuration list for PBXNativeTarget "yuntuiTests" */;
+			buildPhases = (
+				E155BDD41C5F535700A6504F /* Sources */,
+				E155BDD51C5F535700A6504F /* Frameworks */,
+				E155BDD61C5F535700A6504F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E155BDDA1C5F535700A6504F /* PBXTargetDependency */,
+			);
+			name = yuntuiTests;
+			productName = yuntuiTests;
+			productReference = E155BDD81C5F535700A6504F /* yuntuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E155BDE21C5F535700A6504F /* yuntuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E155BDF21C5F535700A6504F /* Build configuration list for PBXNativeTarget "yuntuiUITests" */;
+			buildPhases = (
+				E155BDDF1C5F535700A6504F /* Sources */,
+				E155BDE01C5F535700A6504F /* Frameworks */,
+				E155BDE11C5F535700A6504F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E155BDE51C5F535700A6504F /* PBXTargetDependency */,
+			);
+			name = yuntuiUITests;
+			productName = yuntuiUITests;
+			productReference = E155BDE31C5F535700A6504F /* yuntuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E155BDB71C5F535600A6504F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hanen;
+				TargetAttributes = {
+					E155BDBE1C5F535600A6504F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9XXR6SAV3A;
+					};
+					E155BDD71C5F535700A6504F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E155BDBE1C5F535600A6504F;
+					};
+					E155BDE21C5F535700A6504F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E155BDBE1C5F535600A6504F;
+					};
+				};
+			};
+			buildConfigurationList = E155BDBA1C5F535600A6504F /* Build configuration list for PBXProject "yuntui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E155BDB61C5F535600A6504F;
+			productRefGroup = E155BDC01C5F535600A6504F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E155BDBE1C5F535600A6504F /* yuntui */,
+				E155BDD71C5F535700A6504F /* yuntuiTests */,
+				E155BDE21C5F535700A6504F /* yuntuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E155BDBD1C5F535600A6504F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E155BDD21C5F535600A6504F /* LaunchScreen.storyboard in Resources */,
+				E197D2351C603BC800C8BFEA /* Default-568h@2x.png in Resources */,
+				E155BDCF1C5F535600A6504F /* Assets.xcassets in Resources */,
+				E155BDCD1C5F535600A6504F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155BDD61C5F535700A6504F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155BDE11C5F535700A6504F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E155BDBB1C5F535600A6504F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E155BDCA1C5F535600A6504F /* ViewController.m in Sources */,
+				E155BDC71C5F535600A6504F /* AppDelegate.m in Sources */,
+				E155BDC41C5F535600A6504F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155BDD41C5F535700A6504F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E155BDDD1C5F535700A6504F /* yuntuiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155BDDF1C5F535700A6504F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E155BDE81C5F535700A6504F /* yuntuiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E155BDDA1C5F535700A6504F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E155BDBE1C5F535600A6504F /* yuntui */;
+			targetProxy = E155BDD91C5F535700A6504F /* PBXContainerItemProxy */;
+		};
+		E155BDE51C5F535700A6504F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E155BDBE1C5F535600A6504F /* yuntui */;
+			targetProxy = E155BDE41C5F535700A6504F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E155BDCB1C5F535600A6504F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E155BDCC1C5F535600A6504F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E155BDD01C5F535600A6504F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E155BDD11C5F535600A6504F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E155BDEA1C5F535700A6504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E155BDEB1C5F535700A6504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E155BDED1C5F535700A6504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = yuntui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanencg.yuntui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E155BDEE1C5F535700A6504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = yuntui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanencg.yuntui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		E155BDF01C5F535700A6504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yuntuiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanencg.yuntuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yuntui.app/yuntui";
+			};
+			name = Debug;
+		};
+		E155BDF11C5F535700A6504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yuntuiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanencg.yuntuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yuntui.app/yuntui";
+			};
+			name = Release;
+		};
+		E155BDF31C5F535700A6504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = yuntuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanencg.yuntuiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yuntui;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E155BDF41C5F535700A6504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = yuntuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanencg.yuntuiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yuntui;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E155BDBA1C5F535600A6504F /* Build configuration list for PBXProject "yuntui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E155BDEA1C5F535700A6504F /* Debug */,
+				E155BDEB1C5F535700A6504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E155BDEC1C5F535700A6504F /* Build configuration list for PBXNativeTarget "yuntui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E155BDED1C5F535700A6504F /* Debug */,
+				E155BDEE1C5F535700A6504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E155BDEF1C5F535700A6504F /* Build configuration list for PBXNativeTarget "yuntuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E155BDF01C5F535700A6504F /* Debug */,
+				E155BDF11C5F535700A6504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E155BDF21C5F535700A6504F /* Build configuration list for PBXNativeTarget "yuntuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E155BDF31C5F535700A6504F /* Debug */,
+				E155BDF41C5F535700A6504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E155BDB71C5F535600A6504F /* Project object */;
+}
